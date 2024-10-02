@@ -50,8 +50,9 @@ O código principal do aplicativo está no arquivo App.js. Aqui está um resumo 
     Componente App: Renderiza a visualização do mapa e o marcador.
     Estilos: Estilos para o contêiner do mapa e o Callout.
 
-![Screenshot_1727894220](https://github.com/user-attachments/assets/8a307e31-f49d-46b8-a4a7-8e46c9828d3f)
 
-    
+
+![Screenshot_1727894220(1)](https://github.com/user-attachments/assets/6f2188e2-6307-47ef-8919-615b6df1043e)
+
     
 
