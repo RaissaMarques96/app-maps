@@ -50,7 +50,7 @@ O código principal do aplicativo está no arquivo App.js. Aqui está um resumo 
 
 
 
-![Screenshot_1727894220(1)](https://github.com/user-attachments/assets/6f2188e2-6307-47ef-8919-615b6df1043e)
+![Screenshot_1727894220(2)](https://github.com/user-attachments/assets/7dd7caa4-b710-425f-9c9c-7ede5108ca71)
 
     
 
