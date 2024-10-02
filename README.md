@@ -49,7 +49,9 @@ O código principal do aplicativo está no arquivo App.js. Aqui está um resumo 
     Coordenadas: Define a latitude e longitude do marcador.
     Componente App: Renderiza a visualização do mapa e o marcador.
     Estilos: Estilos para o contêiner do mapa e o Callout.
+
+![Screenshot_1727894220](https://github.com/user-attachments/assets/8a307e31-f49d-46b8-a4a7-8e46c9828d3f)
+
     
     
-    
-![Screenshot_1727894220](https://github.com/user-attachments/assets/6c9be4be-3ef1-46a5-8a4d-22a39faca289)
+
