@@ -20,8 +20,6 @@ npm install
 
 ou, se estiver usando Yarn:
 
-bash
-
 yarn install
 
 3. Instale as Dependências do react-native-maps
