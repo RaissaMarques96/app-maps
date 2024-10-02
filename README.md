@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+Meu Aplicativo de Mapas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um aplicativo simples desenvolvido em React Native que exibe um mapa interativo com um marcador em uma localização específica.
+Tecnologias Utilizadas
 
-## Get started
+    React Native: Framework para construção de aplicativos móveis.
+    react-native-maps: Biblioteca para integrar mapas no aplicativo.
 
-1. Install dependencies
+Instalação
 
-   ```bash
-   npm install
-   ```
+Para rodar este projeto, você precisará ter o Node.js e o React Native CLI instalados em seu ambiente. Siga os passos abaixo para configurar e executar o aplicativo:
+1. Clone o Repositório
 
-2. Start the app
+git clone https://github.com/RaissaMarques96/app-maps.git
+cd seu_repositorio
 
-   ```bash
-    npx expo start
-   ```
+2. Instale as Dependências
 
-In the output, you'll find options to open the app in a
+npm install
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ou, se estiver usando Yarn:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+bash
 
-## Get a fresh project
+yarn install
 
-When you're ready, run:
+3. Instale as Dependências do react-native-maps
 
-```bash
-npm run reset-project
-```
+Siga as instruções da documentação oficial do react-native-maps para instalar as dependências nativas, incluindo as configurações necessárias para iOS e Android.
+4. Execute o Aplicativo
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Para Android:
+npx react-native run-android
 
-## Learn more
+Para iOS:
 
-To learn more about developing your project with Expo, look at the following resources:
+npx react-native run-ios
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Funcionalidades
 
-## Join the community
+    Visualização de um mapa centrado em uma localização específica.
+    Um marcador que representa um local (IFMA Timon) com um Callout que exibe informações adicionais.
 
-Join our community of developers creating universal apps.
+Estrutura do Código
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+O código principal do aplicativo está no arquivo App.js. Aqui está um resumo da estrutura:
+
+    Importações: Importa os componentes necessários do React Native e da biblioteca react-native-maps.
+    Coordenadas: Define a latitude e longitude do marcador.
+    Componente App: Renderiza a visualização do mapa e o marcador.
+    Estilos: Estilos para o contêiner do mapa e o Callout.
